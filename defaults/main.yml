@@ -1,6 +1,6 @@
 ---
 # Create a group for every user and make that their primary group
-users_create_per_user_group: true
+users_create_per_user_group: false
 # If we're not creating a per-user group, then this is the group all users
 # belong to
 users_group: users
@@ -12,5 +12,7 @@ users_create_homedirs: true
 
 # Lists of users to create and delete
 users: []
-users_deleted: []
-groups_to_create: []
+users_absent: []
+groups_present: []
+groups_absent: []
+
